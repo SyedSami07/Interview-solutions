@@ -15,20 +15,20 @@ function matchWinner(teamAGoals, teamBGoals) {
 
 //Problem-02: Elevator Weight Safety Checker
 function isElevatorSafe(weights){
-if(Array.isArray(weights) === false){
-    return "Invalid";
-}
-let total =0
-for(let weight of weights){
-    total += weight;
-}
+    let sum = 0;
 
-if(total <= 400){
-    return true;
-}
-else{
-    return false;
-}
+    if(!Array.isArray(weights)){
+        return "Invalid"
+    }
+
+    for(let i=0; i <weights.length; i++){
+        sum+=weights[i]
+    } if(sum <= 400){
+        return true;
+    }
+      else if(sum > 400){
+            return false;
+    }
 }
 
 //Problem-03: AI Token Cost Calculator
