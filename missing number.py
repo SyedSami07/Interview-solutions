@@ -8,4 +8,4 @@ for i in range(len(arr)):
      sum += arr[i]
      
 result = total_sum - sum;
-print("missing element: ", result);
+print("missing element: ", result)
