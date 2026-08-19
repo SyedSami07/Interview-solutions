@@ -1,6 +1,6 @@
 #find missing number from array
 n = 7
-arr = [7,3,2,4,1,6];
+arr = [7,3,2,4,1,6]
 total_sum = n * (n+1)/2;
 
 sum = 0
