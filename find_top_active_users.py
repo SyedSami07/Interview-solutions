@@ -10,7 +10,7 @@ users = [
 top_user = users[0]
 
 for user in users:
-    if user["posts"] > top_user["posts"]:
+    if user["posts"] > top_user["posts"]
         top_user = user
 
 print(top_user["name"])
