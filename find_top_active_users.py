@@ -1,5 +1,5 @@
 
-#dsa: Find Top Active User
+#dsa: Find Top Active User.
 
 users = [
     {"name": "sami", "posts": 5},
