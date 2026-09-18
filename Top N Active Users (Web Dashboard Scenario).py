@@ -5,7 +5,7 @@ users = [
     {"name": "tamim", "posts": 15},
     {"name": "rafi", "posts": 3}
 ]
-N = 3
+N = 32
 
 # sort descending by 'posts'
 users_sorted = sorted(users, key=lambda x: x["posts"], reverse=True)
