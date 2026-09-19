@@ -4,7 +4,7 @@
 users = [
     {"name": "sami", "posts": 5},
     {"name": "suhan", "posts": 12},
-    {"name": "syed", "posts": 8}
+    {"name": "syed", "posts": 8}.
 ]
 
 top_user = users[0]
