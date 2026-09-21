@@ -6,7 +6,7 @@ def two_sum(nums, target):
         complement = target - num
         if complement in num_to_index:
             return [num_to_index[complement], i]
-        num_to_index[num] = i
+        num_to_index[num] = i;
 
 nums = [2, 7, 11, 15]
 target = 9
