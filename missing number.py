@@ -7,5 +7,5 @@ sum = 0
 for i in range(len(arr))
      sum += arr[i]
      
-result = total_sum - sum;
+result = total_sum - sum
 print("missing element: ", result);
