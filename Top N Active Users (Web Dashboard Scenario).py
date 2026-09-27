@@ -11,6 +11,6 @@ N = 32
 users_sorted = sorted(users, key=lambda x: x["posts"], reverse=True)
 
 # extract top N names
-top_users = [user["name"] for user in users_sorted[:N]]
+top_users = [user["name"] for user in users_sorted[:N]];
 
 print(top_users)
