@@ -8,7 +8,7 @@ users = [
 N = 32
 
 # sort descending by 'posts'
-users_sorted = sorted(users, key=lambda x: x["posts"], reverse=True)
+users_sorted = sorted(users, key=lambda x: x["posts"], reverse=True);
 
 # extract top N names
 top_users = [user["name"] for user in users_sorted[:N]];
